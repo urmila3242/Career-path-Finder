@@ -1,0 +1,190 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(/com.career_path_finder/src/main/webapp/images/ai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    color: black;
+}
+.logo{
+    font-size: 18px;
+    color: white;
+}
+.logo span span{
+    color: white;
+    font-weight: bold;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 18px;
+} 
+.navbar a:hover{
+    background-color: #4283B1;
+    color: white;
+    cursor: pointer;
+}
+.navbar .btn{
+    display: inline-block;
+    background: white;
+    color: black;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: bolder;
+    margin-left: 20px;
+
+}
+.navbar button:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+.content{
+    width: 60%;
+    height:500px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 60px;
+    box-shadow: 0 0 15px black;
+}
+.banner{
+    margin: 8px;
+    width: 40%;
+    height:480;
+    background-image: url(ai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn{
+    margin: 10px auto;
+    margin-bottom: 20px;
+    display: inline-block;
+    background: #1fce0f;
+    color: black;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 5px 25px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+.wrapper{
+    background: transparent; 
+    color: black;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper h6{
+    text-align: center;
+    font-weight: bold;
+}
+
+.input_box{
+    position: relative;
+    width: 350px;
+    height: 30px;
+    margin: 30px 0;
+}
+
+.input_box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    border: 1px solid rgb(63, 60, 60);
+    
+}
+
+.input_box input::placeholder{
+    color: black;
+   
+}
+.input_box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.wrapper .remember_forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin-bottom: 12px;
+}
+.remember_forgot label input{
+    accent-color: white;
+    margin-right: 3px;
+}  
+.remember_forgot a{
+    color: black;
+    text-decoration: none;
+}
+.remember_forgot a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn{
+    width: 100%;
+    height:50px;
+    background:#4283B1;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600px;
+}
+
+.wrapper .register_link{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.register_link p a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register_link p a:hover{
+    text-decoration: underline;
+}
+
